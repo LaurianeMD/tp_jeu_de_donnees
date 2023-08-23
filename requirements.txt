@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 pandas
+=======
+pandas 
+numpy
+requests
+>>>>>>> ce873c065bcf9f46565029ca301b24bc2991ad47
