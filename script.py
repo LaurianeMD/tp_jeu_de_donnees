@@ -5,7 +5,7 @@ import pandas as pd
 def download_data(url,dataset='./data.csv'):
    reponse=requests.get(url)
    with open(dataset, 'wb') as file:
-      file.write(reponse.content)
+    file.write(reponse.content)
       
 # def check_data_quality(dataset):
 #    df=pd.read_csv(dataset)
